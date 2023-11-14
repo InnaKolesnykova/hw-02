@@ -417,13 +417,19 @@ body
     justify-content: center;
     flex-wrap: wrap;
 }
-
-.list-project-item
+.list-project li
 {
+    border: 1px solid #EEE;
+    background: #FFF;
     width: 370px;
     height: 404px;
     flex-shrink: 0;
 }
+
+
+
+
+
 
 
 
