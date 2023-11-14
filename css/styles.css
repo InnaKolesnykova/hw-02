@@ -69,6 +69,18 @@ body
     margin-bottom: 25px;
 }
 
+.nav-header-link
+{
+    color: #212121;
+   
+        font-size: 14px;
+  
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0.28px;
+        margin-left: 0;
+}
+
 .header-link-color
 {
 color: var(--brand-color);;
@@ -101,7 +113,7 @@ letter-spacing: 0.78px;
 /* E-mail */  /* Tel-box */
 .contact-link-tel
 {
-    color: var(--brand-color);
+    color: var(--main-color);
     font-family: var(--main-font);
     font-size: 14px;
     font-style: normal;
@@ -355,9 +367,20 @@ letter-spacing: 0.78px;
 
 .fotter-contacts-list
 {
-    padding-left: 215px;
-    margin-top: 20px;
+  
+
 }
+
+.adress{
+
+    width: 231px;
+    height: 81px;
+    flex-shrink: 0;
+    display: flex;
+    padding-left: 215px;
+    padding-top: 20px;
+}
+
 
 .fotter-contacts-link
 {
@@ -368,8 +391,60 @@ letter-spacing: 0.78px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.42px;
-    width: 231px;
-    height: 21px;
-    flex-shrink: 0;
+   
 }
 
+
+
+.body-portfolio
+{
+    display: flex;
+    width: 1600px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 94px;
+}
+
+.portfolio-main
+{
+    width: 1170px;
+        height: 1360px;
+        
+}
+.list-btn
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.portfolio-btn
+{
+    width: 125px;
+        height: 38px;
+        flex-shrink: 0;
+        border-radius: 4px;
+        background: #F5F4FA;
+        color: #212121;
+            text-align: center;
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 26px;
+            letter-spacing: 0.48px;
+}
+.portfolio-btn:hover{
+    color: var(--background-color);
+    background-color: var(--brand-color);
+}
+
+
+.list-project
+{
+   
+display: flex;
+flex-direction: row;
+justify-content: center;
+flex-wrap: wrap;
+}
