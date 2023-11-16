@@ -17,11 +17,10 @@
     margin: 0 auto;
 }
 
-:active
+.nav-header-link.current
 {
     color: var(--brand-color);
 }
-
 
 .list {
     list-style: none;
